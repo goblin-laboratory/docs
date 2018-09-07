@@ -1,0 +1,27 @@
+{
+  "javascript": {
+    "ReactJS": [
+      "dva-knowledge-map"
+    ],
+    "Dva.js": [
+      "dva-knowledge-map",
+      "dva-api",
+      "dva-8-concepts",
+      "dva-tutorial",
+      "dva-redux-saga",
+      "dva-study-notes"
+    ],
+    "函数式编程": [
+      "doc2"
+    ],
+    "设计模式": [
+      "doc3"
+    ]
+  },
+  "docs-other": {
+    "First Category": [
+      "doc4",
+      "doc5"
+    ]
+  }
+}

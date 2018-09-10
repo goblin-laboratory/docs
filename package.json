@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/goblin-laboratory/docs.git",
+  "author": "xiaosong <kunkkaco@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "devDependencies": {
+    "docz": "^0.11.1"
+  }
+}

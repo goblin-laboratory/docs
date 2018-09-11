@@ -4,13 +4,17 @@
   "main": "index.js",
   "repository": "https://github.com/goblin-laboratory/docs.git",
   "author": "xiaosong <kunkkaco@gmail.com>",
+  "homepage": "https://goblin-laboratory.github.io/docs/",
   "license": "MIT",
   "private": false,
   "scripts": {
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:build": "docz build",
+    "predeploy": "npm run docz:build",
+    "deploy": "gh-pages -d .docz/dist"
   },
   "devDependencies": {
-    "docz": "^0.11.1"
+    "docz": "^0.11.1",
+    "gh-pages": "^1.2.0"
   }
 }

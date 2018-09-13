@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "docz:dev": "docz dev",
-    "docz:build": "docz build",
-    "predeploy": "npm run docz:build",
+    "dev": "docz dev",
+    "build": "docz build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d .docz/dist"
   },
   "devDependencies": {

@@ -50,8 +50,9 @@ const loadImg = (blob) => {
   });
 };
 ```
-参考资料：[基于canvas生成图片](https://juejin.im/post/5aefc0456fb9a07abc29d36d)
-
+参考资料：
+1. [基于canvas生成图片](https://juejin.im/post/5aefc0456fb9a07abc29d36d)
+2. [MDN: 启用了 CORS 的图片](https://developer.mozilla.org/zh-CN/docs/Web/HTML/CORS_enabled_image)
 
 ## captureStream 自动播放
 

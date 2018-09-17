@@ -3,4 +3,5 @@ export default {
   protocol: 'http',
   base: '/docs/',
   hashRouter: true,
+  files: '**/*.md',
 }

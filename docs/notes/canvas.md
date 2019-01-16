@@ -72,4 +72,7 @@ window.setInterval(()=>{
 ```
 
 
-##
+## 性能优化
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Optimizing_canvas
+2. https://www.html5rocks.com/zh/tutorials/canvas/performance/#toc-clear-canvas

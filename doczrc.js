@@ -1,5 +1,5 @@
 export default {
-  src: './docs',
+  // src: './docs',
   protocol: 'http',
   base: '/docs/',
   hashRouter: true,

@@ -1,7 +1,7 @@
 ---
 name: 30 Seconds of CSS
-order: 1
-menu: 30 Seconds
+order: 0
+menu: Books
 ---
 
 # 30 Seconds of CSS

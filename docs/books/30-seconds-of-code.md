@@ -21,3 +21,14 @@ menu: Books
 ```js
 const arrayMax = arr => Math.max(...arr);
 ```
+
+### chunk
+
+将数组块划分为指定大小的较小数组。
+
+使用 `Array.from` 创建新的数组，这符合将生成的区块数。使用 `Array.slice` 将新数组的每个元素映射到 `size` 长度的区块。如果原始数组不能均有拆分，则最终的块将包含剩余的元素。
+
+```js
+const chunk = (arr, size) =>
+Array.from({ length: Math.ceil(arr.lenth / size) }, (v, i) => arr.slice(i * size, i * size + size  ))
+```
